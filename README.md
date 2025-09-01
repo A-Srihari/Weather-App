@@ -5,8 +5,8 @@ It uses the [WeatherAPI](https://www.weatherapi.com/) to fetch real-time weather
 Live deployed URL : <a href="https://srihari-weather-app.netlify.app/" target="_blank">https://srihari-weather-app.netlify.app/</a>
 
 ## Technologies Used
-  -HTML
-  -CSS
+  -HTML <br>
+  -CSS <br>
   -JavaScript
 
 ## Features
