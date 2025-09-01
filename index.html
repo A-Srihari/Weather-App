@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="/Assets/clear morning sky.mp4" type="video/mp4" id="vdoSrc">
+    </video>
+    <div id="container">
+        <div id="search-box">
+            <div id="search-logo">
+                <i id="lens" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input type="search" name="searchBar" id="search-place" placeholder="Search Your City...." autocomplete="off">
+        </div>
+        <div id="weather">
+            <!-- <div class="location weather-content">
+
+            </div>
+            <div class="date-and-time weather-content">
+                
+            </div>
+            <div class="current-situation weather-content">
+                
+            </div>
+            <div class="weather-icon weather-content">
+                
+            </div>
+            <div class="current-temperature weather-content">
+                
+            </div> -->
+            <div id="details-1">
+
+            </div>
+            <div id="image">
+
+            </div>
+            <div id="details-2">
+
+            </div>
+        </div>
+        <div id="other-properties">
+            <div class="property feels-like">
+                <div class="imgs">
+                    <img src="/Assets/Temperature.png" alt="">
+                </div>
+                <div class="prop" id="feels">
+                    <p>Feels Like</p>
+                    <p id="temp"></p>
+                </div>
+            </div>
+
+            <div class="property humidity">
+                <div class="imgs">
+                    <img src="/Assets/humidity.png" alt="">
+                </div>
+                <div class="prop" id="humid">
+                    <p>Humidity</p>
+                    <p id="hum"></p>
+                </div>
+            </div>
+
+            <div class="property wind">
+                <div class="imgs">
+                    <img src="/Assets/wind.png" alt="">
+                </div>
+                <div class="prop" id="wind">
+                    <p>Wind</p>
+                    <p id="wi"></p>
+                </div>
+            </div>
+
+            <div class="property pressure">
+                <div class="imgs">
+                    <img src="/Assets/Pressure.png" alt="">
+                </div>
+                <div class="prop" id="pres">
+                    <p>Pressure</p>
+                    <p id="pre"></p>
+                </div>
+            </div>
+
+        </div>
+        <script src="/script.js"></script>
+    </div>
+</body>
+</html>
